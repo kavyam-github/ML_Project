@@ -7,7 +7,7 @@ import time
 
 st.set_page_config(
     page_title="ClaimSentinel | Fraud Intelligence",
-    page_icon="⬡",
+    page_icon="Favicon.png",
     layout="wide",
     initial_sidebar_state="expanded"
 )
