@@ -330,7 +330,7 @@ if st.session_state.landing:
         background:radial-gradient(ellipse at 50% 30%,rgba(196,98,45,0.06) 0%,transparent 65%);
         pointer-events:none;"></div>
       <div style="margin-bottom:22px;opacity:0.9;">{LOGO_SVG_LG}</div>
-      <div class="landing-kicker">◈ CLAIM INTELLIGENCE PLATFORM · EST. 2024</div>
+      <div class="landing-kicker">◈ CLAIM INTELLIGENCE PLATFORM · EST. 2026</div>
       <div class="landing-title">Claim<span style="font-style:italic;color:var(--amber);">Sentinel</span></div>
       <div style="font-family:'IBM Plex Mono',monospace;font-size:0.68rem;letter-spacing:0.2em;
         color:var(--textM);margin-bottom:1.6rem;">INSURANCE FRAUD INTELLIGENCE ENGINE</div>
@@ -413,7 +413,7 @@ with st.sidebar:
     st.markdown("<br>", unsafe_allow_html=True)
     if st.button("← Back to Landing", use_container_width=True):
         st.session_state.landing=True; st.rerun()
-    st.markdown("""<div class="cs-footer">© 2024 ClaimSentinel<br>Proprietary SIU Intelligence</div>""", unsafe_allow_html=True)
+    st.markdown("""<div class="cs-footer">© 2026 ClaimSentinel<br>Proprietary SIU Intelligence</div>""", unsafe_allow_html=True)
 
 menu = st.session_state.menu
 
